@@ -55,5 +55,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: reg-app-service
-          cluster: Devcluster-ecs
+          cluster: devcluster-ecs
           wait-for-service-stability: true
